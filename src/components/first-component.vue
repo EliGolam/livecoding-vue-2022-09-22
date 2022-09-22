@@ -47,6 +47,10 @@ $more-clr: lightblue;
     border-radius: .7em;
 }
 
+@mixin circle {
+    border-radius: 100vh;
+}
+
 .generic {
     background-color: $another-clr;
 
@@ -69,6 +73,7 @@ $more-clr: lightblue;
 
 .box-2 {
     @include ac-square();
+    @include circle();
     background-color: aquamarine;
 }
 </style>
