@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld userName="Elias" />
+    <HelloWorld class="hello" userName="Elias" />
     <FirstComponent />
     <HeaderComponent />
     <ContentComponent />
@@ -36,5 +36,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.hello {
+  position: absolute;
+  top: 0;
 }
 </style>
